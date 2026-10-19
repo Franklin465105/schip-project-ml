@@ -7,7 +7,7 @@ categories: demo
 
 Add a short welcome message or introduction here. Aim to get the viewer interested in what follows! Guideline: 1 or 2 sentences. 
 
-I am adding a test sentence here at 13:24 on 03/12/24.
+I am adding a test sentence here at 16:49, on 19/10/2026
 
 ## **Template VGA Design**
 ### **Project Set-Up**
@@ -23,8 +23,11 @@ Describe the synthesis and implementation processes. Consider including 1/2 usef
 ### **Demonstration**
 Perhaps add a picture of your demo. Guideline: 1/2 sentences.
 
-## **My VGA Design Edit**
+## **Week 5**
 Introduce your own design idea. Consider how complex/achievabble this might be or otherwise. Reference any research you do online (use hyperlinks).
+
+I experimented with the Colour Stripes design file to create the Irish flag, what I did with the help of Google gemini was figure out which columns need to be edited/deleted and based on binary I altered the remaining columns which was three because there are three main columns in the Irish flag. Each columns binary was edited to match the ireland flags colours. Also the pixels themselves were altered to giv earound the same amount of numbers. (640 / 3 = 213 roughly) which gives even enough stripes.
+
 ### **Code Adaptation**
 Briefly show how you changed the template code to display a different image. Demonstrate your understanding. Guideline: 1-2 short paragraphs.
 ### **Simulation**
