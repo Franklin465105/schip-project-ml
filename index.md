@@ -1,4 +1,3 @@
-<img width="1146" height="640" alt="Screenshot 2026-11-16 160045" src="https://github.com/user-attachments/assets/2175e35e-36e4-4274-9f14-96fc361d5510" />---
 layout: home
 title: FPGA VGA Driver Project
 tags: fpga vga verilog
@@ -11,8 +10,7 @@ Hi, my name is Franklin and this is my project; in this project the first demo w
 
 ## **Template VGA Design**
 ### **Project Set-Up**
-Summarise the project set-up and design flow. Include a screenshot of your own set-up, for example see the image of my Project Summary window below. Guideline 1 short paragraph.
-
+<img width="533" height="343" alt="Screenshot 2026-11-16 163239" src="https://github.com/user-attachments/assets/1e1072a6-feb4-40df-b5a4-c89326b9864a" />
 
 <img width="1146" height="640" alt="Screenshot 2026-11-16 160045" src="https://github.com/user-attachments/assets/db5505c1-0552-4bb9-9c64-00ed3aead415" />
 ### **Template Code**
@@ -51,7 +49,3 @@ A bullet list can be rendered as follows:
 - vectors
 - algorithms
 - iterators
-
-Images can be added by uploading them to the repository in a /docs/assets/images folder, and then rendering using HTML via githubusercontent.com as shown in the example below.
-
-<img src="https://raw.githubusercontent.com/melgineer/fpga-vga-verilog/main/docs/assets/images/VGAPrjSrcs.png">
