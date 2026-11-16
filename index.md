@@ -1,19 +1,20 @@
----
+<img width="1146" height="640" alt="Screenshot 2026-11-16 160045" src="https://github.com/user-attachments/assets/2175e35e-36e4-4274-9f14-96fc361d5510" />---
 layout: home
 title: FPGA VGA Driver Project
 tags: fpga vga verilog
 categories: demo
 ---
 
-Add a short welcome message or introduction here. Aim to get the viewer interested in what follows! Guideline: 1 or 2 sentences. 
+Hi, my name is Franklin and this is my project; in this project the first demo was me attempting the Irish and Nigerian flags, which I successfully achieved in doing and following that I'm going to attempt the Olympics logo and aswell as that the Microsoft logo.
 
-I am adding a test sentence here at 16:49, on 19/10/2026
+- Sentence added: 16/11/2026, 15:49
 
 ## **Template VGA Design**
 ### **Project Set-Up**
 Summarise the project set-up and design flow. Include a screenshot of your own set-up, for example see the image of my Project Summary window below. Guideline 1 short paragraph.
 
-<img src="https://raw.githubusercontent.com/melgineer/fpga-vga-verilog/main/docs/assets/images/VGAPrjSum.png">
+
+<img width="1146" height="640" alt="Screenshot 2026-11-16 160045" src="https://github.com/user-attachments/assets/db5505c1-0552-4bb9-9c64-00ed3aead415" />
 ### **Template Code**
 Outline the structure and design of the Verilog code templates you were given. What do they do? Include reference to how a VGA interface works. Guideline: 2/3 short paragraphs, consider including screenshot(s).
 ### **Simulation**
