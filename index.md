@@ -15,7 +15,11 @@ Hi, my name is Franklin and this is my project; in this project the first demo w
 <img width="1146" height="640" alt="Screenshot 2026-11-16 160045" src="https://github.com/user-attachments/assets/db5505c1-0552-4bb9-9c64-00ed3aead415" />
 
 ### **Template Code**
-Outline the structure and design of the Verilog code templates you were given. What do they do? Include reference to how a VGA interface works. Guideline: 2/3 short paragraphs, consider including screenshot(s).
+A VGA screen draws one pixel at a time, going left to right and top to bottom. The monitor uses two timing signals, vsync and hsync; to know when to start a new line and a new frame.
+Each pixel also gets a red, blue, or green values to set its colour and when you mix and match the amount of each colour you can get different ones.
+
+The (VGASync) file counts across and down the screen. It creates the sync signals and tells us which pixel is being drawn on the monitor.
+The (ColourStripes) file takes that pixel's position and decides what colour it should be assigned as. It then splits it into lines across the screen (In my case for the flags it splits into three different colours and stripes). Most of the VGA files in the project all look the same because only the drawing part changes. It almost never changes because the monitor timing always stays the same.
 
 ### **Simulation**
 Explain the simulation process. Reference any important details, include a well-selected screenshot of the simulation. Guideline: 1/2 short paragraphs.
