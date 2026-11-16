@@ -22,13 +22,15 @@ The (VGASync) file counts across and down the screen. It creates the sync signal
 The (ColourStripes) file takes that pixel's position and decides what colour it should be assigned as. It then splits it into lines across the screen (In my case for the flags it splits into three different colours and stripes). Most of the VGA files in the project all look the same because only the drawing part changes. It almost never changes because the monitor timing always stays the same.
 
 ### **Simulation**
-Explain the simulation process. Reference any important details, include a well-selected screenshot of the simulation. Guideline: 1/2 short paragraphs.
+I used the testbench to simulate the design before putting it on the FPGA board. Simulation allowed me to check that the everything was working correctly and that the hsync and vsync signals were generated at the correct times. It also allowed me to verify that the row and column counters were going up properly. Overall, simulation gave confidence that the VGA display would work correctly when programmed onto the FPGA.
 
 ### **Synthesis**
 Describe the synthesis and implementation processes. Consider including 1/2 useful screenshot(s). Guideline: 1/2 short paragraphs.
 
 ### **Demonstration**
 Perhaps add a picture of your demo. Guideline: 1/2 sentences.
+
+<img width="1920" height="1440" alt="image" src="https://github.com/user-attachments/assets/0c541025-11ef-4d8a-a486-5602155af93b" />
 
 ## **Week 5**
 I experimented with the Colour Stripes design file to create the Irish flag, what I did with the help of Google gemini was figure out which columns need to be edited/deleted and based on binary I altered the remaining columns which was three because there are three main columns in the Irish flag. Each columns binary was edited to match the ireland flags colours. Also the pixels themselves were altered to giv earound the same amount of numbers. (640 / 3 = 213 roughly) which gives even enough stripes.
