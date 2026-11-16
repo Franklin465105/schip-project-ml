@@ -30,8 +30,7 @@ Describe the synthesis and implementation processes. Consider including 1/2 usef
 ### **Demonstration**
 Perhaps add a picture of your demo. Guideline: 1/2 sentences.
 
-<img width="1920" height="1440" alt="image" src="https://github.com/user-attachments/assets/0c541025-11ef-4d8a-a486-5602155af93b" />
-
+<img width="1920" height="1440" alt="fcd10561-4863-499d-8e35-fe12061a5830" src="https://github.com/user-attachments/assets/c718db84-16b5-457d-90c2-27ca0c6ce0d6" />
 ## **Week 5**
 I experimented with the Colour Stripes design file to create the Irish flag, what I did with the help of Google gemini was figure out which columns need to be edited/deleted and based on binary I altered the remaining columns which was three because there are three main columns in the Irish flag. Each columns binary was edited to match the ireland flags colours. Also the pixels themselves were altered to giv earound the same amount of numbers. (640 / 3 = 213 roughly) which gives even enough stripes.
 
